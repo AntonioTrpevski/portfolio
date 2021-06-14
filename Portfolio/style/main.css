@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+/* FITST PAGE */
+
+
+#intro-text {
+    color: #ffffff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* margin-left: 5em;
+    margin-top: 20em; */
+    position: absolute; 
+    margin-top: 250px; 
+    padding-left: 180px;
+}
+
+#intro-text h1 {
+    font-size: 87px;
+}
+
+
+#intro-text button {
+    margin-top: 75px;
+}
+
+#main-img {
+    background-position: center; 
+    height: 100vh; 
+    width: 100%;  
+}
+
+#project-button {
+    background-color: #a3ff84; /* Green */
+    border: 1px solid black;
+    border-radius: 0.5em;
+    color: black;
+    width: 382px;
+    height: 79px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+
+#contact-me-button {
+    background-color: transparent; /* Green */
+    border: 1px solid #a3ff84;
+    border-radius: 0.5em;
+    color: white;
+    width: 382px;
+    height: 79px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+
+/* SECOND PAGE */
+
+
+#about-me-page {
+    background-color: #111111;
+}
+
+.projects {
+    color: white;
+    display: flex;
+    margin-top: 200px; 
+        margin-left: 10px;
+    
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.projects h1 {
+    font-size: 50px;
+
+}
+
+.projects h2 {
+    font-size: 40px;
+    padding-right: 10px;
+    color: #e4e4e4;
+}
+
+
+
+/* RESPONSE */
+
+@media only screen and (max-width: 500px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    #intro-text {
+        color: #ffffff;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        /* margin-left: 5em;
+        margin-top: 20em; */
+        
+    margin-top: 130px; 
+    padding-left: 70px;
+    }
+    
+    #intro-text h1 {
+        font-size: 25px;
+        
+    }
+
+    #intro-h1 {
+        font-size: 15px;
+    }
+    
+    #intro-text button {
+        margin-top: 53px;
+    }
+
+    #main-img {
+        background-position: center; 
+        height: 100%; 
+        width: 100%;  
+    }
+    
+    
+    #project-button {
+        background-color: #a3ff84; /* Green */
+        border: 1px solid black;
+        border-radius: 0.5em;
+        color: black;
+        width: 140px;
+        height: 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+    }
+    
+    #contact-me-button {
+        background-color: transparent; /* Green */
+        border: 1px solid #a3ff84;
+        border-radius: 0.5em;
+        color: white;
+        width: 140px;
+        height: 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        
+        
+    }
+
+   
+
+    #button-main-div button {
+    
+    }
+    
+    
+    /* SECOND PAGE */
+    
+    
+    #about-me-page {
+        background-color: #111111;
+    }
+    
+    .projects {
+        color: white;
+        display: flex;
+        margin-top: 200px; 
+        margin-left: 10px;
+        
+        padding-right: 100px;
+    }
+
+    .projects img {
+        width: 50%;
+        height: 50%;
+    }
+    
+    .projects h1 {
+        font-size: 20px;
+    
+    }
+    
+    .projects h2 {
+        font-size: 14px;
+        padding-right: 3px;
+        color: #e4e4e4;
+    }
+    
+  }
